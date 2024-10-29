@@ -21,7 +21,7 @@
 		"begin": "^(auth:awsv4)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -42,7 +42,7 @@
 		"begin": "^(auth:oauth2)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -63,7 +63,7 @@
 		"begin": "^(auth:basic|auth:digest|auth:wsse)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -84,7 +84,7 @@
 		"begin": "^(auth:bearer)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -105,7 +105,7 @@
 		"begin": "^(auth:apikey)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -126,7 +126,7 @@
 		"begin": "^(script:pre-request|script:post-request|tests)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -139,7 +139,7 @@
 		"begin": "^(body:sparql)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -152,7 +152,7 @@
 		"begin": "^(body:json|body:graphql:vars|body)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -165,7 +165,7 @@
 		"begin": "^(body:xml)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -178,7 +178,7 @@
 		"begin": "^(body:graphql)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -191,7 +191,7 @@
 		"begin": "^(docs|body:text)\\s*\\{",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -204,7 +204,7 @@
 		"begin": "(?x)^(\n  meta\n  | get | post | put | delete | patch | options | head | connect | trace\n  | params:path | params:query\n  | headers\n  | query\n  | params:path | params:query\n  | vars:pre-request | vars:post-response\n  | body:form-urlencoded | body:multipart-form\n  | assert\n)\\s*\\{\n",
 		"end": "^\\}\\s*",
 		"beginCaptures": {
-		  "0": {
+		  "1": {
 			"name": "keyword.bruno"
 		  }
 		},
@@ -286,4 +286,4 @@
 		"match": ":"
 	  }
 	}
-  }
+}
